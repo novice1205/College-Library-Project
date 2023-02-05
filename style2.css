@@ -1,13 +1,5 @@
-.navone{
-    background-color: aliceblue;
-    height: 500px;
-}
-section{
-    margin: 5vw 0;
-    padding: 0;
-}
 .carousel{
-    margin: 0vw 0vw;
+    margin: 7vw 0vw;
     max-width: 100%;
     height: auto;
 
