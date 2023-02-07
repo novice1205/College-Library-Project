@@ -35,7 +35,7 @@ body.open .background {
 }
 
 .navbar {
-    z-index: 2;
+    z-index: 3;
     top: 0;
     left: 0;
     display: flex;
@@ -45,6 +45,7 @@ body.open .background {
     height: 72px;
     padding-left: 20px;
     padding-right: 72px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background: #00154E;
     color: #f9f9f9;
 }
@@ -107,7 +108,11 @@ body.open .menu {
     font-family: "Poppins";
     text-decoration: none;
 }
-
+.menu>a:hover{
+    transform: scale(1.05);
+    transition: 540ms;
+    color: #d5ddf131;
+}
 body.open .menu>a {
     animation: appear 0.3s both;
 }
