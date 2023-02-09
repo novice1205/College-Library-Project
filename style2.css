@@ -1,5 +1,5 @@
 .carousel{
-    margin: 7vw 0vw;
+    margin: 84px 0;
     max-width: 100%;
     height: auto;
 
@@ -90,8 +90,13 @@ footer{
     position: relative;
     z-index: 2;
     background-color: #00154e93;
-    margin-top: 2vw;
+    margin-top: 75px;
+    font-family: Poppins;
 }
 .bg-gray-100{
     background-color: #00154e93;
+}
+.foot-items{
+    color: antiquewhite;
+    font-size: 1.05vw;
 }
