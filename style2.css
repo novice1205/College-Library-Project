@@ -1,8 +1,10 @@
+body{
+    overflow-x: hidden;
+}
 .carousel{
     margin: 84px 0;
     max-width: 100%;
     height: auto;
-
 }
 .carousel-inner{
     border-color: #00154E;
