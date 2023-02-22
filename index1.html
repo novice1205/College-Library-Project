@@ -22,16 +22,45 @@
     <!--Navbar-->
     <header>
         <div class="background"></div>
-        <nav class="navbar">
-            <a href="index1.html"><img class="navbar-logo img-fluid" src="Logo.png" /></a>
-        </nav>
-        <button class="navbar-burger" onclick="toggleMenu()"></button>
-        <nav class="menu" data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease-in">
-            <a href="index1.html" style="animation-delay: 0.1s">Home</a>
-            <a href="about.html" style="animation-delay: 0.2s">About</a>
-            <a href="membership.html" style="animation-delay: 0.3s">Membership</a>
-            <a href="journals.html" style="animation-delay: 0.4s">Journals</a>
-            <a href="#" style="animation-delay: 0.5s">Contact</a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="img-fluid navbar-logo" src="Logo.png"
+                        alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/journals">Journals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="membership.html">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/delnet">DELNET</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/feedback">Feedback</a>
+                        </li>
+                </div>
+                <form class="d-flex" role="search">
+                    <button type="button" onclick="modeChange()"><lord-icon src="https://cdn.lordicon.com/dkowjmhq.json" trigger="hover"
+                            style="width:69px;height:69px">
+                        </lord-icon></button>
+                </form>
+            </div>
         </nav>
     </header>
     <!--Slider-->
@@ -72,31 +101,28 @@
         <div class="containerone" data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease-in">
             <h1>ARSD College Library | Home</h1>
             <br>
-            <p>
-                <lord-icon src="https://cdn.lordicon.com/ttioogfl.json" trigger="morph"
-                    colors="primary:#121331,secondary:#a39cf4,tertiary:#e88c30,quaternary:#ffffff,quinary:#ffffff"
-                    style="width:150px;height:150px">
-                </lord-icon>
-                <lord-icon src="https://cdn.lordicon.com/cqmhvubj.json" trigger="hover"
-                    colors="outline:#121331,primary:#794628,tertiary:#794628,quaternary:#ffffff,quinary:#e88c30"
-                    style="width:150px;height:150px">
-                </lord-icon>
-                <lord-icon src="https://cdn.lordicon.com/dqxvvqzi.json" trigger="hover"
-                    colors="outline:#121331,primary:#e88c30,secondary:#66a1ee" style="width:150px;height:150px">
-                </lord-icon>
-                <lord-icon src="https://cdn.lordicon.com/kjkiqtxg.json" trigger="hover"
-                    colors="outline:#121331,primary:#f4c89c,secondary:#7166ee,tertiary:#ee6d66"
-                    style="width:150px;height:150px">
-                </lord-icon>
-
-                <lord-icon src="https://cdn.lordicon.com/ccwgfhfg.json" trigger="hover"
-                    colors="outline:#000000,primary:#c71f16,secondary:#1b1091,tertiary:#f2e2d9"
-                    style="width:150px;height:150px"></lord-icon>
-                <lord-icon src="https://cdn.lordicon.com/pqxdilfs.json" trigger="hover"
-                    colors="outline:#131432,primary:#ffffff,secondary:#000000,tertiary:#ffffff"
-                    style="width:150px;height:150px">
-                </lord-icon>
-            </p>
+            <a href="#"><lord-icon src="https://cdn.lordicon.com/ttioogfl.json" trigger="morph"
+                colors="primary:#121331,secondary:#a39cf4,tertiary:#e88c30,quaternary:#ffffff,quinary:#ffffff"
+                style="width:150px;height:150px">
+            </lord-icon></a>
+        <a href="#"><lord-icon src="https://cdn.lordicon.com/cqmhvubj.json" trigger="hover"
+                colors="outline:#121331,primary:#794628,tertiary:#794628,quaternary:#ffffff,quinary:#e88c30"
+                style="width:150px;height:150px">
+            </lord-icon></a>
+        <a href="#"><lord-icon src="https://cdn.lordicon.com/dqxvvqzi.json" trigger="hover"
+                colors="outline:#121331,primary:#e88c30,secondary:#66a1ee" style="width:150px;height:150px">
+            </lord-icon></a>
+        <a href="#"><lord-icon src="https://cdn.lordicon.com/kjkiqtxg.json" trigger="hover"
+                colors="outline:#121331,primary:#f4c89c,secondary:#7166ee,tertiary:#ee6d66"
+                style="width:150px;height:150px">
+            </lord-icon></a>
+        <a href="#"><lord-icon src="https://cdn.lordicon.com/ccwgfhfg.json" trigger="hover"
+                colors="outline:#000000,primary:#c71f16,secondary:#1b1091,tertiary:#f2e2d9"
+                style="width:150px;height:150px"></lord-icon></a>
+        <a href="#"><lord-icon src="https://cdn.lordicon.com/pqxdilfs.json" trigger="hover"
+                colors="outline:#131432,primary:#ffffff,secondary:#000000,tertiary:#ffffff"
+                style="width:150px;height:150px">
+            </lord-icon></a>
         </div>
         <br><br><br>
         <div class="containertwo" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in">
@@ -119,21 +145,17 @@
         <div
             class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto md:text-left">
-                <a href="https://www.arsdcollege.ac.in"
-                    class="flex title-font font-medium items-center md:rjustify-start justify-center text-gray-900"
-                    target="_blank">
+                <a href="https://www.arsdcollege.ac.in" class="flex title-font font-medium items-center md:rjustify-start justify-center text-gray-900" target="_blank">
                     <img src="Logo.png" alt="Logo">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
-                    <span class="ml-3 text-xl" style="font-size:1.4vw;">Atma Ram Sanatan Dharma College</span>
+                    <span class="ml-3 text-xl"style="font-size:1.4vw;">Atma Ram Sanatan Dharma College</span>
                 </a>
-                <p class="mt-2 text-xl text-gray-500" style="color:antiquewhite;">Ring Rd, Dhaula Kuan Enclave I, Dhaula
-                    Kuan, New Delhi, Delhi 110021</p>
+                <p class="mt-2 text-xl text-gray-500" style="color:antiquewhite;">Ring Rd, Dhaula Kuan Enclave I, Dhaula Kuan, New Delhi, Delhi 110021</p>
             </div>
             <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 class="title-font font-medium text-gray-900 text-xl mb-3" style="font-size: 1.3vw;">Quick Links
-                    </h2>
+                    <h2 class="title-font font-medium text-gray-900 text-xl mb-3" style="font-size: 1.3vw;">Quick Links</h2>
                     <nav class="list-none mb-10 foot-items">
                         <li>
                             <a href="#" class="hover:text-gray-800">About</a>
@@ -204,8 +226,9 @@
         </div>
         <div class="bg-gray-100">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 All rights reserved to ARSD |
-                    <a class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Developed by ARSDC</a>
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 All rights reserved to ARSD | 
+                    <a class="text-gray-600 ml-1" rel="noopener noreferrer"
+                        target="_blank">Developed by ARSDC</a>
                 </p>
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                     <a class="text-gray-500" href="https://www.facebook.com/ARSDCOLLEGE.DU/" target="_blank">
@@ -249,10 +272,10 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 <script>
-    const toggleMenu = () => {
-        document.body.classList.toggle("open");
-    };
     AOS.init();
+function modeChange() {
+        document.body.classList.toggle("darkmode")       
+    }
 </script>
 
 </html>
