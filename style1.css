@@ -22,7 +22,7 @@
     height: 120%;
     background-color: rgba(0, 0, 0, 0.658);
     background-image: url("https://images.wallpaperscraft.com/image/single/books_library_shelves_138556_3840x2160.jpg");
-    background-size: cover;
+    background-size:auto;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.5s;
