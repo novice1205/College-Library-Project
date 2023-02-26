@@ -10,7 +10,7 @@ body{
     --primary-color: #00154e;
     --secondary-color:#00154e93;
 }
-.carousel{
+.carousel{                                                                                                                                                                      
     margin: 80px 0;
     max-width: 100%;
     height: auto;
@@ -111,4 +111,36 @@ footer{
 .foot-items{
     color: antiquewhite;
     font-size: 1.05vw;
+}
+.card{
+    display: flex;
+    background: none;
+    border: none;
+}
+.card-body{
+    display: inline-block;
+    position: relative;
+    bottom: 21px;
+    margin-left: 18px;
+    width: auto;
+    
+}
+.lib-icons{
+    display: flex;
+}
+@media screen and (max-width:991px){
+    .lib-icons{
+        display: inline;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 15px;
+
+    }
+    .containerone>h1{
+        font-size: 15px;
+    }
+    .containertwo{
+        font-size: 15px;
+    }                
 }
