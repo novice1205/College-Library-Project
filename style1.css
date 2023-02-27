@@ -50,18 +50,18 @@
 
 .navbar-logo {
     max-width: 100%;
-    height: 4.5vw;
+    height: 4rem;
 }
 .nav-item{
-    padding: 0 15px;
+    padding: 0 18px;
 }
 .nav-link{
     font-family: Poppins;
     color: #f9f9f9;
-    font-size: 1.25vw;
+    font-size: 1.25rem;
 }
-.navbar-nav{
-    margin-left: 0px;
+.navbar-nav{    
+    margin: auto;
 }
 .nav-link:visited{
     color: #f9f9f9;
@@ -76,9 +76,18 @@
     font-family: Poppins;
     font-size: 1.25vw;
 }
+.navbar-toggler{
+    border: none;
+    color: antiquewhite;
+    position: relative;
+    left:36px;
+}
+#lib-logo{
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
 @media screen and (max-width:991px) {
-    .navbar-logo{
-        height: 35px;
-    }
-    
+   
 }

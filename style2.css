@@ -2,16 +2,11 @@ body{
     overflow-x: hidden;
 }
 :root{
-    --primary-color: #000000ef;;
-    --secondary-color: #000000a2;
-
-}
-.darkmode{
-    --primary-color: #00154e;
-    --secondary-color:#00154e93;
+    --primary-color: #000000;;
+    --secondary-color: #000000ef;
 }
 .carousel{                                                                                                                                                                      
-    margin: 80px 0;
+    margin: 90px 0;
     max-width: 100%;
     height: auto;
 
@@ -91,10 +86,10 @@ body{
     padding: 15px 15px;
     font-family: Poppins;
     color: antiquewhite;
-    font-size: 1.2vw;
+    font-size: 1.5rem;
 }
 .containerone > h1{
-    font-size: 2vw;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 footer{
@@ -110,7 +105,7 @@ footer{
 }
 .foot-items{
     color: antiquewhite;
-    font-size: 1.05vw;
+    font-size: 1.25rem;
 }
 .card{
     display: flex;
@@ -155,18 +150,27 @@ footer{
     color: #d5ddf198;
 }
 @media screen and (max-width:991px){
+    .containerone>h1{
+        text-align: center;
+    }
+    .card{
+        margin: auto;
+    }
     .lib-icons{
         display: inline;
         text-align: center;
+        align-items: center;
+        justify-content: center;
     }
-    .card-text{
-        font-size: 15px;
-
+    .inner-content>h1{
+        font-size: 20px;
     }
-    .containerone>h1{
-        font-size: 15px;
+    .inner-content>h3{
+        margin-top: 90px;
+        font-size: 25px;
     }
-    .containertwo{
-        font-size: 15px;
-    }                
+    .carousel-inner img {
+        height: 14rem;
+    }
+    
 }
